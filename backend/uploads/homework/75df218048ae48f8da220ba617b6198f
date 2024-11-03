@@ -1,0 +1,37 @@
+Abstraction :- Exposing only the relevant details of an entity.
+Encapsulation :- Binding data and operations together in an entity
+
+	* information hiding :- Access control modifies
+	* Implementation hiding :- Through creation of interface for class
+
+Inheritance :- Reusability of code
+Polymorphism :- One name, many forms
+
+	* Static Polymorphism :- Method overloading
+	* Dynamic Polymorphism :- Method overriding
+
+Class :-  Blueprint from which object are created 
+Object :- Instance of a class - acts as its variable
+Constructor :- Initializes the state of an object 
+	-- Invoked at the time of object creation
+	-- Instance method with usually the same name as class
+Destructor :- Automatically called at the end of the lifetime of an object
+	-- Frees up the acquired resources 
+Function overloading :- Two or more functions have same name but different parameters
+
+Operator Overloading :- * Type of polymorphism
+			* Operator overloaded to give it user defined meaning
+
+Method Overriding :- Redefining a super class method in a sub class
+
+Abstract Class :-	*Process of hiding the implementation details while showing the functionality is Abstraction
+			*Class declared as abstract - abstract class
+			*Needs to be extended and methods implemented
+			*Can't ne instantiated
+
+Interface :- * Specifies what a class must do
+	     * Methods declared in interface are 'abstract' by default
+	     * Way to achieve total abstraction
+
+Virtual Function :- * Member function declared with base class and redefined by derived class
+		    * Used to override a behavior for derived class at run time
